@@ -50,14 +50,14 @@ src/
 └── App.js              # Main application entry
 ```
 
-# 🧠 State Logic
+## 🧠 State Logic
 The application leverages Redux Toolkit's `createSlice` to handle complex logic:
 
 • `addItem:` Checks if the item exists; if so, increments quantity; if not, pushes new item.
 • `removeItem:` Filters the state to remove specific product IDs.
 • `calculateTotals:` A reducer that iterates through the cart to update the total price and badge count.
 
-# 🤝 Contributing
+## 🤝 Contributing
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
 1. Fork the Project
@@ -66,5 +66,5 @@ Contributions are what make the open-source community such an amazing place to l
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-# 📝 License
+## 📝 License
 Distributed under the MIT License. See `LICENSE` for more information.
